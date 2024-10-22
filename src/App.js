@@ -10,7 +10,7 @@ function App() {
   const touggleMode = () => {
     if (mode === "light") {
       setMode("dark");
-      document.body.style.backgroundColor = "gray";
+      document.body.style.backgroundColor = "black";
     } else {
       setMode("light");
       document.body.style.backgroundColor = "white";

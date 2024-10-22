@@ -37,10 +37,10 @@ export default function TextForm(props) {
         <div className="mb-3">
           <textarea
             className="form-control"
-            style={{background: props.mode === 'light'? 'white' : 'gray', color: props.mode === 'light'? 'black' : 'white'}}
+            style={{background: props.mode === 'light'? 'white' : 'black', color: props.mode === 'light'? 'black' : 'white'}}
             value={text}
             onChange={handleOnChenge}
-            placeholder="Enter text"
+            placeholder="Enter text "
             id="myBox"
             rows={8}
           />
